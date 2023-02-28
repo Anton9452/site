@@ -1,0 +1,14 @@
+@media (max-width:1320) {
+    .conteiner {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+
+    .header-inner a {
+        font-size: 22px;
+    }
+
+    .logo-img {
+        width: 80px;
+    }
+}

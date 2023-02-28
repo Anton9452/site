@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #09606B;
+}
+
+body {
+    font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+}
+
+
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+/* header */
+.header {
+    background: lightgrey;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu li {
+    margin: 0 0.4vw;
+}
+
+.header-inner a {
+    color: #000;
+    font-size: 18px;
+    font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: rgb(26, 26, 26);
+    font-size: 150%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/*промо блок*/
+
+.promo{
+    background: #ddd url(img/bg2.png) no-repeat 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+
+.promo-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+
+}
+
+.promo h1{
+    font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 47px; 
+}
+
+.promo h3{
+font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.promo a{
+font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+}
+
+.promo a:hover{
+        font-size: 150%;
+}
+
+
+

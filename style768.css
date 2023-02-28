@@ -1,0 +1,101 @@
+@media (max-width: 768px) {
+
+    .conteiner {
+        width: 100%;
+        min-width: 275px;
+        margin: 0 auto;
+    }
+
+    .header-inner {
+        height: 50px;
+        width: 100%;
+        position: relative;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .contact a {
+        font-size: 18px;
+    }
+
+    .link_call {
+        display: none;
+    }
+
+    .logo-img {
+        width: 80px;
+    }
+
+
+
+
+
+
+
+
+    .conteine {
+        width: 32px;
+        height: 23px;
+        border: 2px solid black;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        transition: 0.5s;
+    }
+
+    .da {
+        background: rgb(0, 0, 0);
+        width: 20px;
+        height: 2px;
+        margin: 4px;
+        left: calc(50%-12px);
+        transition: 0.5s;
+        transform-origin: 50% 50%;
+        position: absolute;
+    }
+
+    .line1 {
+        top: 0px;
+    }
+
+    .line2 {
+        top: 5px;
+    }
+
+    .line3 {
+        top: 10px;
+    }
+
+    .conteine:hover .line1 {
+        transform: rotate(45deg);
+        left: calc(50%-12px);
+        top: calc(30%);
+        border-radius: 25%;
+    }
+
+    .conteine:hover .line2 {
+        opacity: 0;
+    }
+
+    .conteine:hover .line3 {
+        transform: rotate(-45deg);
+        left: calc(50%-12px);
+        top: calc(30%);
+        border-radius: 25%;
+    }
+
+    .conteine:hover {
+        border-radius: 20%;
+    }
+
+
+    .contact {
+        margin-right: 55px;
+    }
+
+
+
+
+}

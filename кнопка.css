@@ -1,0 +1,52 @@
+.conteine{
+    width: 32px;
+    height: 23px;
+    border: 2px solid black ;
+    position: relative;
+    transition: 0.5s;
+}
+
+.da{
+    background: rgb(0, 0, 0);
+    width: 24px;
+    height: 2px;
+    margin: 4px;
+    left: calc(50%-12px);
+    transition: 0.5s;
+    transform-origin: 50% 50% ;
+    position: absolute;
+}
+
+.line1{ 
+    top: 1px;
+}
+
+.line2{ 
+    top:6px;
+}
+
+.line3{   
+    top:11px;
+}
+
+.conteine:hover .line1{
+    transform: rotate(45deg) ;
+    left: calc(50%-12px);
+    top:calc(30%);
+    border-radius: 25%;
+}
+
+.conteine:hover .line2{
+    opacity: 0;
+}
+
+.conteine:hover .line3{  
+    transform: rotate(-45deg) ;
+    left: calc(50%-12px);
+    top:calc(30%);
+    border-radius: 25%;
+}
+
+.conteine:hover{
+    border-radius: 20%;
+}
