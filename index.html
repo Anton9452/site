@@ -6,84 +6,254 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://kit.fontawesome.com/28ced0cf82.js" crossorigin="anonymous"></script>
-    <link href="https: //fonts.googleapis.com/css2?family= Roboto & display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="profi1.css">
+    <!-- <script src="https://kit.fontawesome.com/28ced0cf82.js" crossorigin="anonymous"></script> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"> -->
+    <!-- от 1320px контента-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 1320 - 768 -->
+    <link rel="stylesheet" media="(max-width:1320px)" href="css/style-lg.css">
+    <!-- до 768 -->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/style-md.css">
+    <!-- до 576 -->
+    <link rel="stylesheet" media="(max-width:576px)" href="css/style-sm.css">
 
-    <link rel="stylesheet" media="(max-width:1320px)" href="style1320-lg.css">
-
-    
-
-    <link rel="stylesheet" media="(max-width: 768px)" href="style768.css">
-
-    <link rel="stylesheet" media="(max-width: 576px)" href="style576.css">
-    
-    
 </head>
 
 <body>
+    <!-- 
+    
+    <header>
+        <nav></nav>
+    </header>
+    <footer></footer>
+    <main></main>
+    
+    <aside></aside>
+    <section>
+        <article></article>
+        <article></article>
+    </section>  
+-->
+    <!-- заголовок -->
 
-    <!--заголовок-->
-    <!--widht: 100%;-->
+    <!-- width: 100% -->
     <header class="header">
-        <!--widht: 1320px; контента-->
-        <div class="conteiner">
-            <!--расположение элементов-->
+        <!-- width: 1320px контента-->
+        <div class="container">
+            <!-- расположение элементов -->
             <div class="header-inner">
-                <div class="logo"><img class="logo-img" src="img/logo.png" alt="логотип компании профи"></div>
-                <nav>
-                    <!--Навигация-->
-                    <ul class="menu">
-                        <li><a href="#">О компании</a></li>
-                        <li><a href="#">Контакты</a></li>
-                        <li><a href="#">Портфолио</a></li>
-                        <li><a href="#">Услуги</a></li>
-                        <li><a href="#">Преимущества</a></li>
-
-                    </ul>
-                </nav>
-                    <div class="conteine">
-                        <div class="da line1"></div>
-                        <div class="da line2"></div>
-                        <div class="da line3"></div>
-                    </div>
-                
-                <div class="contact">
-                    <a class="link_call" href="#">Заказать звонок</a>
-                    <a href="tel: +7-800-000-00-00">
-                        <i class="fa-solid fa-phone"></i>
-                        8-800-000-00-00
+                <div class="logo">
+                    <a href="index.html">
+                        <img class="logo-img" src="img/logo.png" alt="логотип компании Профи ">
                     </a>
                 </div>
-                
+                <!-- кнопка -->
+                <div class="hamb-menu">
+                    <div class="hamp-item hamp-item-1"></div>
+                    <div class="hamp-item hamp-item-2"></div>
+                    <div class="hamp-item hamp-item-3"></div>
+                </div>
+                <!-- /кнопка -->
+                <nav class="nav">
+                    <!-- навигация -->
+                    <ul class="menu">
+                        <li><a href="#"> О компании</a></li>
+                        <li><a href="#"> Услуги</a></li>
+                        <li><a href="#">Преимущества<li><a href="#"> Услуги</a></li>
+                        </a>
+                        </li>
+                        <li><a href="#">Портфолио</a></li>
+                        <li><a href="#">Отзывы</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="contact">
+                    <a class="link__call" href="#">Заказать звонок</a>
+                    <a href="tel:+7-800-000-00-00">
+                        <i class="fa-solid fa-phone"></i> 8-800-000-00-00
+                    </a>
+                </div>
             </div>
-
         </div>
     </header>
-
-
-
-<main>
-    <section class="promo">
-        <div class="conteiner">
-            <div class="promo-inner">
-                <h1>Дизайн интерьеров и дизайн под ключь</h1>
-                <h3>ремонт квадратного метра в Ростове от 6000 тр</h3>
-                <h3>дизайн в подарок при заказе под ключ</h3>
-                <h3>выезд на замеры за наш счет</h3>
-                <a href="#"> получить консультацию</a>
+    <main>
+        <section class="promo">
+            <div class="container">
+                <div class="promo-inner">
+                    <h1>Дизайн интерьеров и ремонт под ключ</h1>
+                    <h3>
+                        ремонт квадратного метра в Ростове от 6000 тр
+                    </h3>
+                    <h3>
+                        дизайн в подарок при заказе под ключ
+                    </h3>
+                    <h3>
+                        выезд на замеры за наш счет
+                    </h3>
+                    <a class="btn-cta" href="#">Получить консльтацию</a>
+                </div>
             </div>
-        </div>
+        </section>
+
+        <section class="about">          
+                <div class="about-inner">
+                    <h2>О компании</h2>
+                    <p>Делаем все виды ремонта.
+                        Ремонт «под ключ» — это комплексная услуга от проекта до финиша.
+                         Закупаем и доставляем, возводим и монтируем, отделываем и сдаём готовое.
+                         Полное обустройство помещения и реализация дизайнерских идей.</p>
+                </div>
+                <img src="img/serv-des.png" alt="">
+        </section>  
         
+        
+        <section class="services">
+            <div class="container">
+                <div class="services-inner">
+                    <h2>Услуги</h2>
+                    
+                    <div class="services-list">                          
+                        <!-- одна карточка  service -->                            
+                        <figure class="service">
+                            <img class="service-img" src="img/Дизайн.jpg" alt="">
+                            <figcaption class="service-title">
+                                <h3 class="service-h3">Дизайн</h3>
+                            </figcaption>
+                        </figure>
+
+                                                <!-- одна карточка  service -->                            
+                        <figure class="service">
+                            <img class="service-img" src="img/Полы.jpg" alt="">
+                            <figcaption class="service-title">
+                                <h3 class="service-h3">Полы</h3>
+                            </figcaption>
+                        </figure>
+
+                                                                        <!-- одна карточка  service -->                            
+                        <figure class="service">
+                            <img class="service-img" src="img/потолок.jpg" alt="">
+                            <figcaption class="service-title">
+                                <h3 class="service-h3">Потолок</h3>
+                            </figcaption>
+                        </figure>
+
+                                                <!-- одна карточка  service -->                            
+                        <figure class="service">
+                            <img class="service-img" src="img/сантехника.jpeg" alt="">
+                            <figcaption class="service-title">
+                                <h3 class="service-h3">Сантехника</h3>
+                            </figcaption>
+                        </figure>
+
+                                                                        <!-- одна карточка  service -->                            
+                        <figure class="service">
+                            <img class="service-img" src="img/стены.jpe" alt="">
+                            <figcaption class="service-title">
+                                <h3 class="service-h3">Стены</h3>
+                            </figcaption>
+                        </figure>
+
+                                                <!-- одна карточка  service -->                            
+                       <figure class="service">
+                           <img class="service-img" src="img/Электропроводка в квартире (7).jpg" alt="">
+                           <figcaption class="service-title">
+                               <h3 class="service-h3">Электрика</h3>
+                           </figcaption>
+                       </figure>
 
 
-    </section>
+                    </div>
+
+                </div>
+            </div>
+        </section>
 
 
-</main>
 
 
 
+
+    <div class="slider">
+            <div class="block-dizain-text">
+                <h2>Дизайн проекта</h2>
+                <p>Хороший ремонт квартир начинается с дизайна. Квартира будет выглядеть так, как вы захотите</p>
+            </div>
+            <div class="slader">
+                <img class="img-logo1" src="img/image20-min-45.jpg" alt="" ">
+                <img class="img-logo" src="img/46e564d93597784e2c8fc792e2eedc08.jpeg" alt="" ">
+            </div>    
+                <div class="tochi">
+                   <div></div>
+                   <div></div>
+                   <div></div>
+                   <div></div>
+                   <div></div>
+                   <div></div>
+                   <div></div>
+                   <div></div>
+                   <div></div>
+                   <div></div>
+                   <div></div>
+                   <div></div>
+                </div>     
+    </div>
+
+
+
+
+
+
+    <div class="vopros">
+        <div class="vopros-text">
+            <h4>ОСТАЛИСЬ ВОПРОСЫ, СВЯЖИТЕСЬ С НАМИ!</h4>
+            <p>При заказе римонта с нашим материаллами скидка на <span class="vopros-text-20">20%</span> все наши материаллы</p>
+        </div>
+
+
+        <div class="vopros-sviz">
+            <p class="textt">Связатся с нами</p>
+            <div class="svaz">
+                <p>Ваше имя:</p>
+                <input type="text">
+            </div>
+            <div class="svaz">
+                <p>Ваш телефон:</p>
+                <input type="text">
+            </div>
+            <div class="box-sogl">
+                <input type="checkbox">
+                <p>Сгласен на обработку данных</p>
+            </div>
+            <button>Получить консультацию</button>
+        </div>
+    </div>
+    </main>
+
+
+
+    <footer>
+
+        <div class="yslygi">
+            <a href="index.html">
+                <img class="logo-img" src="img/logo.png" alt="логотип компании Профи ">
+            </a>
+            <p><a href="#">О компании</a></p>
+            <p><a href="#">Портфолио</a></p>
+            <p><a href="#">Отзывы</a></p>
+            <p><a href="#">Услуги</a></p>
+            <p>&#169; 2023</p>
+            
+        </div>
+        <div class="yslygi2">
+            <p>Работаем пн-вс с 9 до 20.00
+                по адресу Ростов-на-Дону
+                ул. БСадовая 22</p>
+            <p>т: 8-800-000-00
+                соц сети</p>
+            <p>Политика конфидициальности</p>
+        </div>
+
+    </footer>
 
 </body>
 

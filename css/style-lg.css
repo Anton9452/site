@@ -1,0 +1,56 @@
+/* стиль для декстопной версии до 1320 */
+@media (max-width: 1320px){
+    .container{
+        max-width: 768px;  
+        margin: 0 auto;
+    }
+    .header-inner a{
+        font-size: 16px;
+    }
+    .logo-img{
+        width: 80px;
+     }
+}
+
+.container2{
+    display: flex; 
+    width: 768px;
+    margin: 0 auto; 
+}
+
+.block-dizain-text{
+   max-width: 768px;
+   margin: 0 auto; 
+}
+
+.slader img{
+    margin: 5px;
+    width: 384px;
+    height: 250px;
+
+}
+
+.vopros-text{
+    width: 350px;
+}
+
+.vopros-sviz{
+    width: 450px;
+}
+
+
+.svaz input{
+    width:410px; 
+}
+
+.about p {
+    max-width: 500px;
+}
+
+
+
+.about{
+    display: flex;
+    width: 768px;
+    margin: 0 auto;
+}
